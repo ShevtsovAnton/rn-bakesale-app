@@ -48,8 +48,6 @@ export default function DealDetail({ initialDealData, onItemPress }) {
 
 const styles = StyleSheet.create({
   deal: {
-    marginHorizontal: 12,
-    padding: 10,
     backgroundColor: '#fff',
   },
   image: {
@@ -100,7 +98,8 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   backLink: {
-    marginBottom: 5,
+    marginBottom: 10,
+    marginLeft: 10,
     color: '#22f',
   },
 });
